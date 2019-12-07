@@ -3,43 +3,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Calculadora
+namespace UNA.Poligonos
 {
     public class Triangulo : Figura
     {
 
         
 
-        public int Lado1
+        public double Lado1
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
+            
         }
 
-        public int Lado2
+        public double Lado2
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
+            
+            
         }
 
-        public int Base
+        public double Base
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
+            
+            
         }
-
-        public int Altura
+         
+        public double Altura
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
+            
+            
         }
 
         public override double CalcularArea()

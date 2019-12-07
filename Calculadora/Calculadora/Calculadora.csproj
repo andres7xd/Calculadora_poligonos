@@ -46,22 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculadora.cs">
+    <Compile Include="CalculadoraForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Calculadora.Designer.cs">
-      <DependentUpon>Calculadora.cs</DependentUpon>
+    <Compile Include="CalculadoraForm.Designer.cs">
+      <DependentUpon>CalculadoraForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Circulo.cs" />
-    <Compile Include="Cuadrado.cs" />
-    <Compile Include="Figura.cs" />
-    <Compile Include="Pentagono.cs" />
+    <Compile Include="UNA\Poligonos\Circulo.cs" />
+    <Compile Include="UNA\Poligonos\Cuadrado.cs" />
+    <Compile Include="UNA\Poligonos\Figura.cs" />
+    <Compile Include="UNA\Poligonos\Pentagono.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangulo.cs" />
-    <Compile Include="Triangulo.cs" />
-    <EmbeddedResource Include="Calculadora.resx">
-      <DependentUpon>Calculadora.cs</DependentUpon>
+    <Compile Include="UNA\Poligonos\Rectangulo.cs" />
+    <Compile Include="UNA\Poligonos\Triangulo.cs" />
+    <EmbeddedResource Include="CalculadoraForm.resx">
+      <DependentUpon>CalculadoraForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,7 +81,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="UNA\POLIGONOS\DiagramaDeClases.cd" />
+    <None Include="UNA\Poligonos\DiagramaDeClases.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

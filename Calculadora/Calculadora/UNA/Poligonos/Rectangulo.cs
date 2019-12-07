@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Calculadora
+namespace UNA.Poligonos
 {
     public class Rectangulo : Figura
     {   
@@ -11,20 +11,17 @@ namespace Calculadora
 
        
 
-        public int Ancho
+        public double Ancho
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
+            
         }
 
-        public int Largo
+        public double Largo
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public override double CalcularArea()

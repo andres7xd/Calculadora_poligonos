@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Calculadora
+namespace UNA.Poligonos
 {
     public class Circulo : Figura
     {
 
         
 
-        public int Radio
+        public double Radio
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
+           
         }
 
         public override double CalcularArea()

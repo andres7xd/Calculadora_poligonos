@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Calculadora
+namespace UNA.Poligonos
 {
     public class Cuadrado : Figura
     {
 
        
 
-        public int Lado
+        public double Lado
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
+            
         }
 
         public override double CalcularArea()

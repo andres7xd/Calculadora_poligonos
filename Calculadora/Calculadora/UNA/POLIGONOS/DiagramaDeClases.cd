@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Calculadora.Triangulo">
+  <Class Name="UNA.Poligonos.Triangulo">
     <Position X="3.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAA=</HashCode>
-      <FileName>Triangulo.cs</FileName>
+      <HashCode>ABAAAAAAAAEAAAAAAAAAAACAAAAAABAAIAAAAAAAQAA=</HashCode>
+      <FileName>UNA\Poligonos\Triangulo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Calculadora.Rectangulo">
+  <Class Name="UNA.Poligonos.Rectangulo">
     <Position X="5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAAAAAAAAACAAAAAAABAAIAAAAAAAAAA=</HashCode>
-      <FileName>Rectangulo.cs</FileName>
+      <HashCode>AAAAAAEAAAAAAAAAIAAAAAAAAAAAABAAIAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Rectangulo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Calculadora.Cuadrado">
+  <Class Name="UNA.Poligonos.Cuadrado">
     <Position X="6.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAABAAAAAA=</HashCode>
-      <FileName>Cuadrado.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEIAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Cuadrado.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Calculadora.Pentagono">
+  <Class Name="UNA.Poligonos.Pentagono">
     <Position X="10.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Pentagono.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEIgAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Pentagono.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Calculadora.Figura">
+  <Class Name="UNA.Poligonos.Figura">
     <Position X="8" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAA=</HashCode>
-      <FileName>Figura.cs</FileName>
+      <FileName>UNA\Poligonos\Figura.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Calculadora.Circulo">
+  <Class Name="UNA.Poligonos.Circulo">
     <Position X="8.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAgAAAAAAA=</HashCode>
-      <FileName>Circulo.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAIAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Circulo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
