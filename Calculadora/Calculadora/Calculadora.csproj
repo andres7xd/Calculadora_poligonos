@@ -52,8 +52,14 @@
     <Compile Include="Calculadora.Designer.cs">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Circulo.cs" />
+    <Compile Include="Cuadrado.cs" />
+    <Compile Include="Figura.cs" />
+    <Compile Include="Pentagono.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangulo.cs" />
+    <Compile Include="Triangulo.cs" />
     <EmbeddedResource Include="Calculadora.resx">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,12 +81,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UNA\POLIGONOS\DiagramaDeClases.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UNA\POLIGONOS\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

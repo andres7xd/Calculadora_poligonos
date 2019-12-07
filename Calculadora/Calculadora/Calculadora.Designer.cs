@@ -37,7 +37,9 @@
             this.pentagono_TabPage = new System.Windows.Forms.TabPage();
             this.btnCalcularArea = new System.Windows.Forms.Button();
             this.btnCalcularPerimetro = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.tbc_calculadora.SuspendLayout();
+            this.triangulo_TabPage.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblCalculadoraPoligonos
@@ -65,6 +67,7 @@
             // 
             // triangulo_TabPage
             // 
+            this.triangulo_TabPage.Controls.Add(this.label1);
             this.triangulo_TabPage.Location = new System.Drawing.Point(4, 22);
             this.triangulo_TabPage.Name = "triangulo_TabPage";
             this.triangulo_TabPage.Padding = new System.Windows.Forms.Padding(3);
@@ -131,6 +134,15 @@
             this.btnCalcularPerimetro.Text = "Calcular Perimetro";
             this.btnCalcularPerimetro.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(25, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
+            // 
             // calculadoraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -145,6 +157,8 @@
             this.Text = "Calculadora de Poligonos";
             this.Load += new System.EventHandler(this.Fondo_Load);
             this.tbc_calculadora.ResumeLayout(false);
+            this.triangulo_TabPage.ResumeLayout(false);
+            this.triangulo_TabPage.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,6 +175,7 @@
         private System.Windows.Forms.TabPage pentagono_TabPage;
         private System.Windows.Forms.Button btnCalcularArea;
         private System.Windows.Forms.Button btnCalcularPerimetro;
+        private System.Windows.Forms.Label label1;
     }
 }
 

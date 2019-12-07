@@ -1,0 +1,10 @@
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\obj\Debug\Calculadora.calculadoraForm.resources
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\116990493\Documents\GitHub\Calculadora_poligonos\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
