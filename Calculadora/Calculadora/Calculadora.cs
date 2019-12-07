@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
-    public partial class Fondo : Form
+    public partial class calculadoraForm : Form
     {
-        public Fondo()
+        public calculadoraForm()
         {
             InitializeComponent();
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Fondo_Load(object sender, EventArgs e)
         {
 
         }

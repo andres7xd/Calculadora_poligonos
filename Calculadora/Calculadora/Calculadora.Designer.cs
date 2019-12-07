@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class Fondo
+    partial class calculadoraForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -131,7 +131,7 @@
             this.btnCalcularPerimetro.Text = "Calcular Perimetro";
             this.btnCalcularPerimetro.UseVisualStyleBackColor = true;
             // 
-            // Fondo
+            // calculadoraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -141,8 +141,9 @@
             this.Controls.Add(this.btnCalcularArea);
             this.Controls.Add(this.tbc_calculadora);
             this.Controls.Add(this.lblCalculadoraPoligonos);
-            this.Name = "Fondo";
-            this.Text = "Form1";
+            this.Name = "calculadoraForm";
+            this.Text = "Calculadora de Poligonos";
+            this.Load += new System.EventHandler(this.Fondo_Load);
             this.tbc_calculadora.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
